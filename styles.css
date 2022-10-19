@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+head {
+    --color-text: rgb(71, 125, 197);
+    --color-textow: rgb(106, 158, 224);
+    --color-headne: rgb(0, 0, 0);
+    --color-headow: rgb(126, 122, 122);
+
+    --border-radius: 80px;
+}
+
+body {
+    background-image: url('img/bg.jpg');
+}
+
+h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 74px;
+    color: var(--color-textow);
+    text-align: center;
+}
+
+p {
+  font-size: 29px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.githubtext {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.github {
+  border-radius: 50%;
+}
+
+.logo {
+  display: block;
+  padding: 20px;
+  border: 40%;
+  width: 50%;
+  height: 50%;
+  border: #000000 3px 3px 3px 3px;
+}
+
+
+.topnav {
+  background-color: var(--color-headne);
+  overflow: hidden;
+  border-radius: 47rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(221, 190, 190, 0.281);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3c8067;
+  color: white;
+}
